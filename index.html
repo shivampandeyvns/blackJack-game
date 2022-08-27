@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1> NBA LEAGUE 2022</h1>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="home-score">0</p>
+                <button class="add-1" onclick="add1home()">+1</button> 
+                <button class="add-2" onclick="add2home()">+2</button> 
+                <button class="add-3" onclick="add3home()">+3</button>   
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="guest-score">0</p>
+                <button class="add-1" onclick="add1guest()">+1</button> 
+                <button class="add-2" onclick="add2guest()">+2</button> 
+                <button class="add-3" onclick="add3guest()">+3</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button class="reset-btn" onclick="resetScore()">RESET</button>
+            <h2 id="leader"></h2>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
